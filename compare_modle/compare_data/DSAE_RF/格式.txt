@@ -1,0 +1,40 @@
+画图
+
+
+with open('roc_data.pkl', 'rb') as f:
+    roc_data = pickle.load(f)
+
+FPR = roc_data['FPR']
+TPR = roc_data['TPR']
+tprs = roc_data['tprs']
+mean_fpr = roc_data['mean_fpr']
+
+# Plot ROC curves
+plt.figure(figsize=(10, 8))
+for i, (fpr, tpr) in enumerate(zip(FPR, TPR)):
+    auc = metrics.auc(fpr, tpr)
+    plt.plot(fpr, tpr, lw=0.5, label='ROC fold %d (auc=%0.4f)' % (i, auc))
+plt.plot(mean_fpr, np.mean(tprs, axis=0), color="#D81C38", lw=2, label='Mean ROC')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("Receiver Operating Characteristic Curve")
+plt.legend(loc='best')
+plt.show()
+
+# Load PR data
+with open('pr_data.pkl', 'rb') as f:
+    pr_data = pickle.load(f)
+
+REC = pr_data['REC']
+PRE = pr_data['PRE']
+
+# Plot PR curves
+plt.figure(figsize=(10, 8))
+for i, (rec, pre) in enumerate(zip(REC, PRE)):
+    aupr = metrics.auc(rec, pre)
+    plt.plot(rec, pre, lw=0.5, label='PR fold %d (aupr=%0.4f)' % (i, aupr))
+plt.xlabel("Recall")
+plt.ylabel("Precision")
+plt.title("Precision-Recall Curve")
+plt.legend(loc='best')
+plt.show()

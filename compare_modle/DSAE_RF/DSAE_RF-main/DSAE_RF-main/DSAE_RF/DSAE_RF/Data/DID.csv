@@ -1,0 +1,135 @@
+,Disease,DOID
+0,colon cancer,DOID:219
+1,obesity,DOID:9970
+2,bacterial vaginosis,DOID:3385
+3,ulcerative colitis,DOID:8577
+4,atopic dermatitis,DOID:3310
+5,asthma,DOID:2841
+6,cystic fibrosis,DOID:1485
+7,psoriasis,DOID:8893
+8,colorectal carcinoma,DOID:0080199
+9,liver cirrhosis,DOID:5082
+10,allergic asthma,DOID:9415
+11,multiple sclerosis,DOID:2377
+12,crohn's disease,DOID:8778
+13,irritable bowel syndrome,DOID:9778
+14,short bowel syndrome,DOID:10605
+15,acquired immunodeficiency syndrome,DOID:635
+16,laryngeal carcinoma,DOID:2600
+17,chronic obstructive pulmonary disease,DOID:3083
+18,colorectal cancer,DOID:9256
+19,major depressive disorder,DOID:1470
+20,bipolar disorder,DOID:3312
+21,chronic fatigue syndrome,DOID:8544
+22,parkinson's disease,DOID:14330
+23,alzheimer's disease,DOID:10652
+24,atherosclerosis,DOID:1936
+25,aggressive periodontitis,DOID:1474
+26,esophageal cancer,DOID:5041
+27,ankylosing spondylitis,DOID:7147
+28,primary sclerosing cholangitis,DOID:0060643
+29,behcet's disease,DOID:13241
+30,autoimmune hepatitis,DOID:2048
+31,hepatitis b,DOID:2043
+32,pancreatic cancer,DOID:1793
+33,tuberculosis,DOID:399
+34,cervical cancer,DOID:4362
+35,rheumatoid arthritis,DOID:7148
+36,periodontal disease,DOID:3388
+37,blepharitis,DOID:9423
+38,coronary artery disease,DOID:3393
+39,polycystic ovary syndrome,DOID:11612
+40,trachoma,DOID:11265
+41,gestational diabetes,DOID:11714
+42,megaesophagus,DOID:13186
+43,pneumonia,DOID:552
+44,hypertension,DOID:10763
+45,macular degeneration,DOID:4448
+46,systemic lupus erythematosus,DOID:9074
+47,denture stomatitis,DOID:11875
+48,osmotic diarrhea,DOID:0050130
+49,endometrial cancer,DOID:1380
+50,acne,DOID:6543
+51,vitiligo,DOID:12306
+52,appendicitis,DOID:8337
+53,constipation,DOID:2089
+54,aphthous stomatitis,DOID:9663
+55,psoriatic arthritis,DOID:9008
+56,botulism,DOID:11976
+57,idiopathic pulmonary fibrosis,DOID:0050156
+58,rett syndrome,DOID:1206
+59,gingivitis,DOID:3087
+60,eosinophilic esophagitis,DOID:13922
+61,chronic kidney disease,DOID:784
+62,periodontitis,DOID:824
+63,anorexia nervosa,DOID:8689
+64,kawasaki disease,DOID:13378
+65,pancreatitis,DOID:4989
+66,hepatic encephalopathy,DOID:13413
+67,gastroenteritis,DOID:2326
+68,primary biliary cholangitis,DOID:12236
+69,hepatitis c,DOID:1883
+70,schizophrenia,DOID:5419
+71,atrophic gastritis,DOID:8929
+72,cervicitis,DOID:2568
+73,hyperthyroidism,DOID:7998
+74,bullous pemphigoid,DOID:8506
+75,otitis media,DOID:10754
+76,chlamydia,DOID:11263
+77,alcoholic hepatitis,DOID:12351
+78,neuromyelitis optica,DOID:8869
+79,azoospermia,DOID:14227
+80,reactive arthritis,DOID:6196
+81,oligoasthenoteratozoospermia,DOID:0070311
+82,budd-chiari syndrome,DOID:11512
+83,prostate cancer,DOID:10283
+84,multiple system atrophy,DOID:4752
+85,autoimmune polyendocrine syndrome type 1,DOID:0050167
+86,attention deficit hyperactivity disorder,DOID:1094
+87,hirschsprung's disease,DOID:10487
+88,pelvic inflammatory disease,DOID:1003
+89,granulomatosis with polyangiitis,DOID:12132
+90,stomach cancer,DOID:10534
+91,myasthenia gravis,DOID:437
+92,osteoarthritis,DOID:8398
+93,lung cancer,DOID:1324
+94,breast cancer,DOID:1612
+95,bronchiectasis,DOID:9563
+96,graves' disease,DOID:12361
+97,microscopic colitis,DOID:0060182
+98,bronchiolitis,DOID:2942
+99,keratitis,DOID:4677
+100,chronic granulomatous disease,DOID:3265
+101,anovulation,DOID:3781
+102,cleft palate,DOID:674
+103,silicosis,DOID:10325
+104,urolithiasis,DOID:0080653
+105,endometriosis,DOID:289
+106,cholestasis,DOID:13580
+107,tongue cancer,DOID:8649
+108,diarrhea,DOID:13250
+109,seborrheic dermatitis,DOID:8741
+110,generalized anxiety disorder,DOID:14320
+111,rosacea,DOID:8881
+112,familial mediterranean fever,DOID:2987
+113,fibromyalgia,DOID:631
+114,collagenous colitis,DOID:0060183
+115,pemphigus vulgaris,DOID:0060851
+116,intrahepatic cholangiocarcinoma,DOID:4928
+117,osteoporosis,DOID:11476
+118,down syndrome,DOID:14250
+119,chronic mucocutaneous candidiasis,DOID:2058
+120,hyper ige syndrome,DOID:0080545
+121,biliary atresia,DOID:13608
+122,alopecia universalis,DOID:0050634
+123,hidradenitis suppurativa,DOID:2280
+124,huntington's disease,DOID:12858
+125,kaposi's sarcoma,DOID:8632
+126,wiskott-aldrich syndrome,DOID:9169
+127,hyperglycemia,DOID:4195
+128,biliary tract cancer,DOID:4607
+129,stevens-johnson syndrome,DOID:0050426
+130,chronic urticaria,DOID:0080747
+131,migraine,DOID:6364
+132,dry eye syndrome,DOID:10140
+133,covid-19,DOID:0080600

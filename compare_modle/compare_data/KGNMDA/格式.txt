@@ -1,0 +1,31 @@
+        with open('averaged_metrics_data.pkl', 'rb') as f:
+            metrics_data = pickle.load(f)
+
+        # 绘制ROC曲线
+        plt.figure(figsize=(10, 8))
+        plt.plot(metrics_data['fpr'], metrics_data['tpr'],
+                 label=f'Mean ROC curve (AUC = {metrics_data["roc_auc"]:.3f})')
+        plt.plot([0, 1], [0, 1], linestyle='--')
+        plt.xlabel('False Positive Rate')
+        plt.ylabel('True Positive Rate')
+        plt.title('Average Receiver Operating Characteristic')
+        plt.legend(loc="lower right")
+        plt.show()
+
+        # 绘制PR曲线
+        plt.figure(figsize=(10, 8))
+        plt.plot(metrics_data['recall'], metrics_data['precision'],
+                 label=f'Mean Precision-Recall curve (AUPR = {metrics_data["pr_auc"]:.3f})')
+        plt.xlabel('Recall')
+        plt.ylabel('Precision')
+        plt.title('Average Precision-Recall Curve')
+        plt.legend(loc="lower right")
+        plt.show()
+
+        # 输出平均F1分数
+        print(f'平均阈值下的F1分数: {metrics_data["f1_score"]:.4f}')
+        print(f'平均阈值下的Accuracy分数: {metrics_data["Accuracy"]:.4f}')
+        #print(f'平均阈值下的Specificity分数: {metrics_data["Specificity"]:.4f}')
+        #print(f'平均阈值下的Precision分数: {metrics_data["Precision"]:.4f}')
+        #print(f'平均阈值下的Sensitivity分数: {metrics_data["Sensitivity"]:.4f}')
+        plt.show()  # 显示图表

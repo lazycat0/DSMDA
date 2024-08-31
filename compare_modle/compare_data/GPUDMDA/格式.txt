@@ -1,0 +1,26 @@
+
+with open('average_roc_data.pkl', 'rb') as f:
+    roc_data = pickle.load(f)
+
+# 读取保存的平均PR数据
+with open('average_pr_data.pkl', 'rb') as f:
+    pr_data = pickle.load(f)
+
+# 绘制平均ROC曲线
+plt.figure(figsize=(10, 8))
+plt.plot(roc_data['fpr'], roc_data['tpr'], label=f'Mean ROC curve (AUC = {roc_data["auc"]:.3f})')
+plt.plot([0, 1], [0, 1], linestyle='--')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Average Receiver Operating Characteristic')
+plt.legend(loc="lower right")
+plt.show()
+
+# 绘制平均PR曲线
+plt.figure(figsize=(10, 8))
+plt.plot(pr_data['recall'], pr_data['precision'], label=f'Mean Precision-Recall curve (AUPR = {pr_data["aupr"]:.3f})')
+plt.xlabel('Recall')
+plt.ylabel('Precision')
+plt.title('Average Precision-Recall Curve')
+plt.legend(loc="lower right")
+plt.show()

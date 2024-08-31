@@ -1,0 +1,47 @@
+    with open('roc_data.pkl', 'rb') as f:
+        roc_data = pickle.load(f)
+
+    FPR = roc_data['FPR']
+    TPR = roc_data['TPR']
+    tprs = roc_data['tprs']
+    mean_fpr = roc_data['mean_fpr']
+
+    # Plot Mean ROC curve only
+    plt.figure(figsize=(10, 8))
+    plt.plot(mean_fpr, np.mean(tprs, axis=0), color="#D81C38", lw=2,
+             label='Mean ROC (auc=%0.4f)' % auc(mean_fpr, np.mean(tprs, axis=0)))
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("Average Receiver Operating Characteristic Curve")
+    plt.legend(loc='best')
+    plt.show()
+
+    with open('pr_data.pkl', 'rb') as f:
+        pr_data = pickle.load(f)
+
+    REC = pr_data['REC']
+    PRE = pr_data['PRE']
+
+    # Combine all recall and precision arrays for all folds
+    all_recall = np.concatenate(REC)
+    all_precision = np.concatenate(PRE)
+    sort_order = np.argsort(all_recall)
+
+    # Sort all recalls and their corresponding precisions
+    sorted_recall = all_recall[sort_order]
+    sorted_precision = all_precision[sort_order]
+
+    # Calculate precision envelope
+    precision_envelope = np.maximum.accumulate(sorted_precision[::-1])[::-1]
+
+    # Calculate average precision
+    aupr_score = auc(sorted_recall, precision_envelope)
+
+    # Plotting the PR curve from the combined and sorted data
+    plt.figure(figsize=(10, 8))
+    plt.plot(sorted_recall, precision_envelope, label='Combined PR curve (AUPR=%0.4f)' % aupr_score, lw=2)
+    plt.xlabel("Recall")
+    plt.ylabel("Precision")
+    plt.title("Precision-Recall Curve")
+    plt.legend(loc='best')
+    plt.show()

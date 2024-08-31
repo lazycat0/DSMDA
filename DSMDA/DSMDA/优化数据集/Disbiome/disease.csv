@@ -1,0 +1,356 @@
+Disease Name,Disease ID
+Autism,1
+Multiple Sclerosis,2
+Crohn's Disease,3
+Ulcerative Colitis,4
+Irritable Bowel Syndrome,5
+Cirrhosis,6
+Type 2 Diabetes,7
+Obesity,8
+Pouchitis,9
+Short Bowel Syndrome,10
+Acquired Immunodeficiency Syndrome,11
+Laryngeal carcinoma,12
+Psoriasis,13
+Cystic Fibrosis,14
+Chronic Obstructive Pulmonary Disease,15
+Colorectal cancer,16
+Inflammatory Bowel Disease,17
+Major depressive disorder,18
+Bipolar disorder,19
+Chronic fatigue syndrome,20
+Parkinson's Disease,21
+Alzheimer's Disease,22
+Infective colitis,23
+Atherosclerosis,24
+Aggressive periodontitis,25
+Type 1 Diabetes,26
+Esophageal cancer,27
+Acute skin abscess,28
+Necrotizing enterocolitis,29
+Caries,30
+Atopy,31
+Familial adenomatous polyposis,32
+Allergy,33
+"Celiac Disease, Coaliac disease",34
+Ankylosing spondylitis,35
+Atopic eczema,36
+HIV infection,37
+Systemic sclerosis,38
+Primary sclerosing cholangitis,39
+Preeclamsia,40
+Pulmonary tubercolosis,41
+Juvenile idiopathic arthritis,42
+Behcet's Disease,43
+Sjögren Syndrome,44
+Autoimmune hepatitis,45
+Hepatitis B,46
+Aphthous ulcer,47
+Pancreatic cancer,48
+Tuberculosis,49
+Recurrent tonsillitis,50
+Atopic dermatitis,51
+Bacterial vaginosis,52
+Cervical cancer,53
+Asthma,54
+Rheumatoid Arthritis,55
+Periodontal disease,56
+Blepharitis,57
+Chronic Rhinosinusitis,58
+Conjunctival scarring,59
+Oral lichen planus,60
+Heart failure,61
+Refractory celiac disease,62
+Interstitial cystitis,63
+Coronary artery disease,64
+Juvenile Idiopathic Arthritis,65
+Preterm birth,66
+Polycystic Ovary Syndrome,67
+Trachoma,68
+Colon adenomas,69
+Gestational diabetes,70
+Primary Open-Angle Glaucoma,71
+Barrett's oesophagus,72
+Megaesophagus,73
+Pneumonia,74
+Cutaneous burn,75
+Exacerbations of idiopathic pulmonary fibrosis,76
+Head/Neck cancer,77
+Hypertension,78
+Halitosis,79
+Rectal Carcinoma,80
+Dandruff,81
+Viral Diarrhea,82
+HIV-infected pneumonia,83
+Pervasive developmental disorder NOS,84
+Macular degeneration,85
+Spondyloarthritis,86
+Systemic lupus erythematosus,87
+Transient Ischemic Attack,88
+Denture Stomatitis,89
+Spinal cord injury,90
+Osmotic diarrhea,91
+Reflux esophagitis,92
+Inactive Crohn's Disease,93
+Endometrial cancer,94
+Infantile eczema,95
+Granulomatous mastitis,96
+severe skin and soft tissue infection,97
+Coronary Heart Disease,98
+Acne,99
+Vitiligo,100
+Appendicitis,101
+Gastro-oesophageal reflux disease,102
+Constipation,103
+Disease-free ,104
+Chronic Rhinosinusitis with asthma,105
+Chronic Rhinosinusitis with cystic fibrosis,106
+Postmenopausal,107
+Aphthous stomatitis,108
+Primary sclerosing cholangitis-IBD,109
+Oral cancer,110
+Psoriatic Arthritis,111
+Chronic lung disease,112
+Cardiovascular disease,113
+Clostridium difficile associated disease,114
+Botulism,115
+Idiopathic Pulmonary Fibrosis,116
+Rett Syndrome,117
+Gingivitis,118
+Chronic prostatitis / Chronic pelvic pain syndrome,119
+Kidney stone,120
+Eosinophilic esophagitis,121
+Chronic kidney disease,122
+Chagas' disease,123
+periodontitis,124
+Anorexia Nervosa,125
+Kawasaki disease,126
+Rhinovirus infection,127
+Non alcoholic steatohepatitis,128
+Pancreatitis,129
+Non-alcoholic fatty liver disease,130
+Ascites,131
+Opisthorchis felineus infection,132
+Helicobacter pylori infection,133
+Primary biliary cirrhosis,134
+Liver fibrosis,135
+Hepatic encephalopathy,136
+Alcoholism,137
+Gastroenteritis,138
+Primary biliary cholangitis,139
+Amyotrophic lateral sclerosis,140
+Hashimoto's thyroiditis,141
+Cirrhosis with pneumonia,142
+Hepatitis C,143
+Functional dyspepsia,144
+Liver transplant,145
+Schizophrenia,146
+Atrophic gastritis,147
+Cervicitis,148
+Smoking,149
+Pregnancy,150
+Idiopathic infertility,151
+Trichomonas vaginalis infection,152
+Human papilloma virus infection,153
+Nongonococcal urethritis,154
+Vulvar vestibulitis syndrome,155
+Hyperthyroidism,156
+Idiopathic REM Sleep Behavior Disorder,157
+T2D with hypertension,158
+T2D with hyperlipidemia,159
+T2D with hypertension and hyperlipidemia,160
+Bullous pemphigoid,161
+Otitis Media,162
+Hirschsprung-associated enterocolitis,163
+Hutchinson-Gilford progeria syndrome,164
+Henoch-Schönlein Purpura,165
+Prediabetes,166
+Chlamydia,167
+Enthesitis-related arthritis ,168
+Chronic alcoholic pancreatitis,169
+Alcoholic hepatitis,170
+Autism spectrum disorders,171
+Idiopathic nephrotic syndrome,172
+Diverticular disease,173
+Neuromyelitis optica,174
+Azoospermia,175
+Hyperlipidemia,176
+Shiga Toxin-producing E. coli infection,177
+Gastric carcinoma,178
+COPD Exacerbation,179
+Sickle cell disease,180
+Protracted bacterial bronchitis,181
+Reactive arthritis,182
+Seminal hyperviscosity,183
+Oligoasthenoteratozoospermia,184
+Allergic asthma,185
+Budd-Chiari syndrome,186
+Atopic wheeze,187
+Prostate cancer,188
+Multiple system atrophy,189
+Autoimmune polyendocrine syndrome type 1,190
+Attention Deficit Hyperactivity Disorder,191
+Hepatocellular cancer,192
+Oral potentially malignant disorder,193
+Viral respiratory tract infection,194
+Hirschsprung's disease,195
+Oral leukoplakia,196
+Urgency urinary incontinence,197
+Pelvic inflammatory disease,198
+Neuropathic bladder,199
+Uveitits,200
+Granulomatosis with polyangiitis,201
+Overactive bladder,202
+Cytolytic vaginosis,203
+Maturity-onset diabetes of the young 2,204
+Stomach cancer,205
+Small intestine neoplasm,206
+Arsenic exposure,207
+Myasthenia gravis,208
+Osteoarthritis,209
+Lung cancer,210
+Clonorchis sinensis infection,211
+Severe fever with thrombocytopenia syndrome,212
+Breast cancer,213
+Bronchiectasis,214
+Graves' disease,215
+Wilson's Disease,216
+Sensitive scalp,217
+Microscopic colitis,218
+Bronchiolitis,219
+Intestinal metaplasia,220
+Keratitis,221
+Late-onset Sepsis,222
+"Hand, foot and mouth disease",223
+Infant colic,224
+Tetratricopeptide repeat domain 7A deficiency,225
+X-linked inhibitor of apoptosis deficiency,226
+Chronic granulomatous disease,227
+Cardiac valve calcification,228
+Adolescent idiopathic scoliosis,229
+Aerobic vaginitis,230
+Palmoplantar pustulosis,231
+Drug-resistant Epilepsy,232
+Primary liver cancer,233
+Anovulation,234
+Cleft palate,235
+Graves' orbitopathy,236
+Obstructive sleep apnea-hypopnea syndrome,237
+Silicosis,238
+Urolithiasis,239
+Endometriosis,240
+Urogenital Schistosomiasis,241
+Clostridium difficile infection,242
+Cervical intraneoplasia,243
+Influenza A,244
+Recurrent miscarriage,245
+Thyroid carcinoma,246
+H7N9,247
+Cholestasis,248
+Undernourishment,249
+Invasive pneumococcal disease,250
+Chronic rhinosinusitis with nasal polyps,251
+Alcoholic cirrhosis,252
+Alopecia areata,253
+Sicca syndrome,254
+Tongue cancer,255
+Giardia intestinalis infection,256
+Glycogen storage disease,257
+Frailty,258
+Metabolic syndrome,259
+Pancreatic head cancer,260
+Hepatitis B associated liver failure,261
+Bladder cancer,262
+Kostmann syndrome,263
+Diarrhea,264
+Seborrheic dermatitis,265
+Edentulism,266
+Generalized anxiety disorder,267
+Chronic ocular graft-versus-host disease,268
+Pediculosis,269
+Rosacea,270
+Familial Mediterranean fever,271
+AA amyloidosis,272
+Mucosa-associated lymphoid tissue lymphoma,273
+Fibromyalgia,274
+Chronic liver disease,275
+Colon polyps,276
+Collagenous colitis,277
+Common Variable Immunodeficieny,278
+Sepsis,279
+Periodontal abscess,280
+Gestational diabetes + hyperlipidemia,281
+Anti-N-methyl-D-aspartate receptor encephalitis,282
+Atrial fibrillation,283
+Pemphigus vulgaris,284
+Orofacial granulomatosis,285
+Radiation enteritis,286
+Intrahepatic Cholangiocarcinoma,287
+Osteoporosis,288
+Cancer cachexia,289
+Lower respiratory tract infection,290
+Laryngotracheal stenosis,291
+Down syndrome,292
+Chronic mucocutaneous candidiasis,293
+Hyper IgE syndrome,294
+Acute cerbral infarction,295
+Biliary atresia,296
+Diabetic nephropathy,297
+Allergic rhinoconjunctivitis,298
+Diaper dermatitis,299
+Alopecia universalis,300
+Chronic pancreatitis,301
+Posttraumatic stress syndrome,302
+Hidradenitis suppurativa,303
+Idiopathic focal epilepsy,304
+Vogt-Koyagani-Harada disease,305
+Iron-deficiency anaemia,306
+Extrinsic black stain,307
+Meningococcal disease,308
+Neuro-Behcet's disease,309
+Miscarriage,310
+Huntington's Disease,311
+Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy,312
+Kaposi's sarcoma,313
+Ischemic stroke,314
+Wiskott-Aldrich syndrome,315
+Severe congenital neutropenia,316
+Vestibulodynia,317
+Hyperglycemia,318
+Antrochoanal polyps,319
+Primary immune thrombocytopenia,320
+Spleen deficiency syndrome,321
+Pulmonary arterial hypertension,322
+Acute fatty liver,323
+Excessive vomiting,324
+Chronic stress,325
+Acute lymphoblastic leukemia,326
+Biliary tract cancer,327
+Kidney stone with hypertension,328
+Bleeding gum,329
+Cystic fibrosis exacerbation,330
+Stevens-Johnson syndrome,331
+Pressure ulcers,332
+Genitourinary lichen sclerosus,333
+Folliculitis decalvans,334
+Nasolacrimal duct obstruction,335
+Chronic urticaria,336
+Migraine,337
+Idiopathic central precocious puberty,338
+Human end-stage renal disease,339
+Gastrointestinal follicular lymphoma,340
+Invasive colorectal cancer,341
+E-smoking,342
+Traumatic Brain Injury,343
+Oropharyngeal cancer,344
+Hypopharyngeal cancer,345
+Neisseria gonorrhoeae infection,346
+Dry eye syndrome,347
+Vulvodynia,348
+Normal weight obesity,349
+Fatigue,350
+Covid-19,351
+H1N1 Influenza,352
+Recurrent aphthous stomatitis ,353
+Cognitive impairment,354
+Sarcopenia,355
